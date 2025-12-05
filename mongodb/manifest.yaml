@@ -23,10 +23,10 @@ spec:
         project:  roboshop
         component: mongodb
         tier: db
-      spec:
-        containers:
-          - name:  mongodb
-            image:  joindevops/mongodb:v1
+    spec:
+      containers:
+      - name:  mongodb
+        image:  joindevops/mongodb:v1
             
           
 
